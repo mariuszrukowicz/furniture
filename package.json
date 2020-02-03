@@ -48,5 +48,7 @@
       "@babel/preset-env"
     ]
   },
-  "dependencies": {}
+  "dependencies": {
+    "jquery-parallax.js": "^1.5.0"
+  }
 }
