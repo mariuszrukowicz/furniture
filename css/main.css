@@ -5,6 +5,7 @@
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=latin-ext");
 html {
   line-height: 1.15;
   /* 1 */
@@ -2267,7 +2268,7 @@ Media queries for responsive design
 	Submenu
 	================================================ */
   .navik-menu.submenu-top-border li > ul {
-    border-top: 3px solid #10bd00; }
+    border-top: 4px solid burlywood; }
   .navik-menu.submenu-top-border li > ul ul {
     top: -30px; }
   .navik-menu.submenu-list-border li > ul ul {
@@ -2490,6 +2491,26 @@ Media queries for responsive design
         transform: translateX(0%); }
   .navik-menu-fixed {
     padding-top: 0; } }
+
+.parallax-window {
+  height: 100vh;
+  background: transparent; }
+
+.parallax-description {
+  color: whitesmoke;
+  font-size: 7rem;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%); }
+  @media screen and (max-width: 600px) {
+    .parallax-description {
+      font-size: 3rem; } }
 
 html {
   -webkit-box-sizing: border-box;
