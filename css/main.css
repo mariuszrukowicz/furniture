@@ -2494,8 +2494,7 @@ Media queries for responsive design
 
 .parallax-window {
   height: 100vh;
-  background: transparent;
-  background-image: url(assets/img/room.jpg); }
+  background: transparent; }
 
 .parallax-description {
   color: whitesmoke;
