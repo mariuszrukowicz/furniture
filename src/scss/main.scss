@@ -2,8 +2,9 @@
 @import "_variables";
 @import "navigation";
 @import "parallax";
-
-@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300i,700&display=swap&subset=latin-ext');
+@import "about";
+@import "contacts.scss";
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap&subset=latin-ext');
 
 
 
@@ -21,4 +22,5 @@ html {
 body {
   color: black;
   background: whitesmoke;
+  font-family: 'Lato', sans-serif;
 }
