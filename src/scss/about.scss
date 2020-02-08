@@ -1,7 +1,7 @@
 .about {
     
     background: none;
-    margin-top: 3rem;
+    margin-top: 3rem auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -9,22 +9,34 @@
 position: static;
     &__header {
 display: block;
-        width: 600px;
+        max-width: 600px;
         height: 200px;
 
-        margin-bottom: 4rem;
+        margin-bottom: 4rem auto;
         padding: 1rem 1rem;
+        @media (max-width: 720px) {
+            max-width: 400px;
+        
+            }
 
     }
 
     &__description {
 
-        height: 800px;
-        width: 800px;
-       padding: 2rem 2rem;
+        height: 100%;
+       max-width: 1300px;
+       padding: 2rem 6rem;
         margin: 3rem 2rem;
         font-size: 2rem;
-        letter-spacing: 1px;
+        letter-spacing: 1.5px;
+        font-size: 2rem;
+        
+        @media (max-width: 720px) {
+            font-size: 14px;
+            text-align: inherit;
+            padding: 3rem ;
+        
+            }
 
 
     }

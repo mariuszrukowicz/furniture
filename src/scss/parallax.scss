@@ -2,7 +2,12 @@
 .parallax-window {
   height: 100vh;
   background: transparent;
-  
+  margin: 0;
+  @media screen and (max-width: 321px) {
+   height: 100vh;
+   width: 100% 
+    
+  }
 }
 .parallax-description{
 color: whitesmoke;
@@ -19,5 +24,6 @@ position: absolute;
       font-size: 3rem; 
       
     }
+    
       
   }
