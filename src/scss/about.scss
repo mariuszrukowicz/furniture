@@ -352,9 +352,16 @@ header .intro-text .intro-lead-in {
 
   .text-description{
       
-      padding-top: 2rem;
-      padding-bottom: 10rem;
-      line-height: 35px;
-      font-size: 2.2rem;
-      
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+      line-height: 30px;
+      font-size: 2rem;
+      @media screen and (max-width: 600px) {
+        font-size: 1rem; 
+        line-height: 20px;
+        margin: 0 auto;
+        padding: 0;
+      }
   }
+
+ 

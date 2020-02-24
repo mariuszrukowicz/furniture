@@ -438,7 +438,7 @@ grid-template-rows: 1fr;
   grid-column-gap: 6px;
   grid-row-gap: 6px;
   @media (max-width: 720px) {
-        font-size: 14px;
+        font-size: 12px;
         grid-template-columns: repeat( 1fr);
   grid-template-rows: repeat(1fr);
     
@@ -472,4 +472,14 @@ grid-template-rows: 1fr;
   height: 45%;
   padding: 2px;
   margin: 2px;
+}
+.container{
+
+
+  @media screen and (max-width: 600px) {
+    font-size: 0.5rem !important; 
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 0;
+  }
 }
