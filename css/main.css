@@ -2500,8 +2500,10 @@ Media queries for responsive design
   padding: 0; }
   @media screen and (max-width: 321px) {
     .parallax-window {
-      height: 100vh;
-      width: 100%; } }
+      height: 100%;
+      width: 100%;
+      padding: 0;
+      margin: 0 auto; } }
 
 .parallax-description {
   color: whitesmoke;
@@ -2798,6 +2800,12 @@ section h3.section-subheading {
   padding-bottom: 1rem;
   line-height: 30px;
   font-size: 2rem; }
+  @media screen and (max-width: 600px) {
+    .text-description {
+      font-size: 1rem;
+      line-height: 20px;
+      margin: 0 auto;
+      padding: 0; } }
 
 .footer {
   background: #4d3f2f;
@@ -3407,7 +3415,7 @@ h2 {
   grid-row-gap: 6px; }
   @media (max-width: 720px) {
     .parent {
-      font-size: 14px;
+      font-size: 12px;
       -ms-grid-columns: ()[1fr];
       grid-template-columns: repeat(1fr);
       -ms-grid-rows: ()[1fr];
@@ -3603,6 +3611,13 @@ body.lb-disable-scrolling {
   height: 45%;
   padding: 2px;
   margin: 2px; }
+
+@media screen and (max-width: 600px) {
+  .container {
+    font-size: 0.5rem !important;
+    line-height: 20px;
+    margin: 0 auto;
+    padding: 0; } }
 
 html {
   -webkit-box-sizing: border-box;
