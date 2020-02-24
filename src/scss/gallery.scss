@@ -1,13 +1,4 @@
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-*:before, *:after {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
+
 
 body {
   font-family: "Lato", sans-serif;
@@ -26,6 +17,7 @@ a {
   margin-bottom: 50px;
 
 }
+
 .dupa{
   display: flex;
   flex-direction: row;
@@ -81,7 +73,7 @@ header p {
 
 
 .gallery {
-  max-width: 50%;
+  max-width: 100%;
   margin-top: 40px;
   @media (max-width: 720px) {
     max-width: 200px;
@@ -121,15 +113,18 @@ header p {
 
 .rwd-table {
   
-  margin-top: 10rem;
+  margin-top: 4rem;
   margin: 1em 0;
   min-width: 300px; // adjust to your 
-  font-size: 1.2rem;
-  
+  font-size: 1.5rem;
+  color: black;
+  border-radius: .4em;
+  overflow: hidden;
   
   tr {
     border-top: 1px solid #ddd;
     border-bottom: 1px solid #ddd;
+    border-color: lighten(#34495E, 10%);
   }
   
   th {
@@ -148,7 +143,8 @@ header p {
 
     &:before {
       content: attr(data-th)": "; // who knew you could do this? The internet, that's who.
-      
+      color: rgb(0, 0, 0);
+    font-size: large;
 
       // optional stuff to make it look nicer
       width: 6.5em; // magic number :( adjust according to your own content
@@ -182,14 +178,9 @@ header p {
   
 }
 .rwd-table {
-  font-size: 1.7rem;
-  margin-top: 4rem;
-  color: black;
-  border-radius: .4em;
-  overflow: hidden;
-  tr {
-    border-color: lighten(#34495E, 10%);
-  }
+ margin-bottom: 5rem;
+  
+  
   th, td {
     margin: .5em 1em;
     @media (min-width: $breakpoint-alpha) { 
@@ -255,6 +246,7 @@ header p {
 
 
 .sphere {
+  margin: 2px 2px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -273,9 +265,10 @@ h2{
 }
 .description__image{
   padding-top: 60px;
-  line-height: 35px;
-  font-size: 2rem;
-  text-indent: 3%
+  line-height: 30px !important;
+  font-size: 1.7rem !important;
+  width: 70%;
+  
 }
 
 
@@ -287,14 +280,14 @@ color: red;
 }
 
 .text__about{
-font-size: 10rem;
+font-size: 1.7rem;
 }
 
 
 
 .person{
   padding: 40px 0 20px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
 position: relative;
 }
@@ -406,7 +399,7 @@ position: relative;
 // .persons .js-dropdown .js-dropdown-content .js-dropdown-arrow{
 //   position: absolute;
 //   bottom: 100%;
-//   left: 100%;
+//   left: 50%;
 //   width: 0;
 //   height: 0;
 //   margin-left: -55px;
@@ -429,7 +422,27 @@ position: relative;
 .fullname__description{
   margin: 1rem !important;
   padding: 0 !important;
-  font-size: 2rem !important;
-  
-  
+  font-size: 1.7rem !important;
 }
+  
+
+.container{
+  width: 100%;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+  grid-column-gap: 6px;
+  grid-row-gap: 6px;
+  @media (max-width: 720px) {
+        font-size: 14px;
+        grid-template-columns: repeat( 1fr);
+  grid-template-rows: repeat(1fr);
+    
+      }
+  }
+  
+  .div1 { grid-area: 1 / 1 / 2 / 2; }
+.div2 { grid-area: 1 / 2 / 2 / 3; }

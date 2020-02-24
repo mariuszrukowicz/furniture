@@ -350,6 +350,7 @@ jQuery(document).ready(function() {
 
 
 
+
 /*
 		Dropdown layer jQuery plugin
 		
@@ -397,8 +398,8 @@ jQuery(document).ready(function() {
 		'disableDropdownClass': "js-dropdown-disable",
 		'slideUpSpeed': 300,
 		'slideDownSpeed': 300,
-		'useSlideDown': true,
-		'useSlideUp': true,
+		'useSlideDown': false,
+		'useSlideUp': false,
 		'transitionEffect': 'swing',
 		'callOnCompleteHide': function() {},
 		'callOnCompleteShow': function() {}
@@ -567,6 +568,13 @@ jQuery(document).ready(function() {
   })(jQuery, window, document);
   
 
+
+  $(document).on("click", '[data-toggle="lightbox"]', function(event) {
+	event.preventDefault();
+	$(this).ekkoLightbox();
+  });
+  
+  
 
   $(document).on("click", '[data-toggle="lightbox"]', function(event) {
 	event.preventDefault();
