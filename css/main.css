@@ -2794,10 +2794,10 @@ section h3.section-subheading {
   padding: 0; }
 
 .text-description {
-  padding-top: 2rem;
-  padding-bottom: 10rem;
-  line-height: 35px;
-  font-size: 2.2rem; }
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  line-height: 30px;
+  font-size: 2rem; }
 
 .footer {
   background: #4d3f2f;
