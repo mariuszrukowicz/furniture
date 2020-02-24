@@ -43,9 +43,14 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 	<link rel="stylesheet" href="https://rawgit.com/LeshikJanz/libraries/master/Bootstrap/baguetteBox.min.css">
 	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.6.11/css/lightgallery.css'>
+	<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"><!-- Font Awesome CSS -->
+
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.css'>
+	<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css'>
 	<link rel="stylesheet" href="./style.css">
-
-
 
 
 <body>
@@ -73,11 +78,11 @@
 				<nav class="navik-menu menu-caret submenu-top-border submenu-scale">
 					<ul class="list-unstyled">
 						<li class="current-menu"><a href="index.html"> Home</a>
-							<li><a href="#">Nasza oferta</a></li>
+						<li><a href="#">Nasza oferta</a></li>
 						</li>
 						<li><a href="index.html">O nas</a></li>
 						<li class="submenu-right"><a>Meble</a>
-							
+
 							<ul class="list-unstyled">
 								<li><a href="#">Łóżka</a>
 									<ul class="list-unstyled">
@@ -120,247 +125,212 @@
 			</span></h1>
 	</header>
 
-	<div id="top"></div>
-	<section class="gallery">
-		<div class="row">
-			<ul>
-				<a href="#" class="close"></a>
-				<li>
-					<a href="#item01">
-						<img src="assets/img/lozka/Jasmin plus/Jasmin Plus.jpg" alt="łóżko Jasmin Plus">
-					</a>
-				</li>
-				<li>
-					<a href="#item02">
-						<img src="assets/img/lozka/Karolina/Karolina.jpg" alt="łóżko Karolina">
-					</a>
-				</li>
-				<li>
-					<a href="#item03">
-						<img src="assets/img/lozka/Luciana plus/Luciana Plus.jpg" alt="łóżko Luciana">
-					</a>
-				</li>
-				<li>
-					<a href="#item04">
-						<img src="assets/img/lozka/Lux/Lux.jpg" alt="łóżko Lux">
-					</a>
-				</li>
-				<li>
-					<a href="#item05">
-						<img src="assets/img/lozka/Milana/Milana.jpg" alt="łóżko Milana">
-					</a>
-				</li>
-				<li>
-					<a href="#item06">
-						<img src="assets/img/lozka/Scarlett/Scarlett.jpg" alt="łóżko Scarlet">
-					</a>
-				</li>
-				<li>
-					<a href="#item07">
-						<img src="assets/img/lozka/Selena plus/Selena Plus.jpg" alt="łóżko Selena Plus">
-					</a>
-				</li>
-				<li>
-					<a href="#item08">
-						<img src="assets/img/lozka/Silwana plus/Silwana Plus.jpg" alt="łóżko Silwana Plus">
-					</a>
-				</li>
-				<li>
-					<a href="#item09">
-						<img src="assets/img/lozka/Sofia/Sofia.jpg" alt="łóżko Sofia">
-					</a>
-				</li>
-				<li>
-					<a href="#item10">
-						<img src="assets/img/lozka/Walencja/Walencja.jpg" alt="łóżko Walencja">
-					</a>
-				</li>
-				<li>
-					<a href="#item11">
-						<img src="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg" alt="łóżko Wenecja Plus">
-					</a>
-				</li>
-				<li>
-					<a href="#item12">
-						<img src="assets/img/lozka/Wiktoria/Wiktoria.jpg" alt="łóżko Wiktoria">
-					</a>
-				</li>
+
+	<div class="container">
+		<div class="persons js-dropdown-items">
+
+			<!-- item1 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Jasmin plus/Jasmin Plus.jpg" alt="łóżko Jasmin Plus">
+				</div>
+				<div class=" fullname">
+					Jasmin Plus
+				</div>
+
+				<div class="js-description">
 
 
-
-			</ul>
-		</div> <!-- / row -->
-
-		<!-- Item 01 -->
-		<div id="item01" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Jasmin Plus</h1><br>
-					<p>- Bezpieczny i zdrowy sen dzięki naturalności materiału.</p>
-					<p>- Pokrycie olejem lnianym dla szczególnych wymagań środowiskowych i hipoalergicznych. </p>
-					<p>- Powłoka lakiernicza dla wyjątkowej trwałości. Konstrukcja jest praktyczna i trwała.</p>
-					<p>- Konstrukcja jest praktyczna i trwała.</p>
+					<h2 class="fullname">Jasmin Plus</h2>
+					<p class="fullname__description">- Bezpieczny i zdrowy sen dzięki naturalności materiału.</p>
+					<p class="fullname__description">- Pokrycie olejem lnianym dla szczególnych wymagań środowiskowych i
+						hipoalergicznych. </p>
+					<p class="fullname__description">- Powłoka lakiernicza dla wyjątkowej trwałości. Konstrukcja jest
+						praktyczna i trwała.</p>
+					<p class="fullname__description">- Konstrukcja jest praktyczna i trwała.</p>
 
 
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Jasmin Plus.jpg">
-									<img src="assets/img/lozka/Jasmin Plus.jpg"
-										alt=" Pierwsze zdjęcie łóżka Jasmin Plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Jasmin Plus 2.jpg">
-									<img src="assets/img/lozka/Jasmin Plus 2.jpg"
-										alt="Drugie zdjęcie łóżka Jasmin Plus">
-								</a>
-							</div>
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Jasmin plus/Jasmin Plus.jpg" data-lightbox="example-set01" data-title=""><img class="example-image" src="assets/img/lozka/Jasmin plus/Jasmin Plus.jpg" alt="Pierwsze zdjęcie łóżka Jasmin Plus"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Jasmin plus/Jasmin Plus 2.jpg" data-lightbox="example-set01" data-title=""><img class="example-image" src="assets/img/lozka/Jasmin plus/Jasmin Plus 2.jpg" alt="Drugie zdjęcie łóżka Jasmin Plus" /></a>
+								
+							  </div>
 
 							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Miękkie, płynne linie w stylu Jasmin Plus pomagają stworzyć atmosferę spokoju i komfortu w
 							sypialni. Nowa modyfikacja „Jasmin Plus” z dodatkowymi szufladami pozwala na oszczędne i
 							praktyczne wykorzystanie wolnego miejsca.
 						</p>
-
-
-
-
 					</div>
 
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2173 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">920 mm</td>
+
+						</tr>
+
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
+
 				</div>
-				
 			</div>
 
+			<!-- item1 -->
 
 
 
+			<!-- item2 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Karolina/Karolina.jpg" alt="łóżko Karolina">
+				</div>
+				<div class=" fullname">
+					Karolina
+				</div>
+
+				<div class="js-description">
 
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2173 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">920 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
+					<h2 class="fullname">Jasmin Plus</h2>
+					<p class="fullname__description">- Drewno bukowe, cenione za trwałość i dobre osiągi. </p>
+					<p class="fullname__description">- Pokrycia to naturalne materiały, które są bezpieczne dla zdrowia. </p>
+					<p class="fullname__description">- Solidna konstrukcja dzięki akcesoriom europejskiego producenta.</p>
+					<p class="fullname__description">- 7 opcji kolorystycznych to świetny wybór do każdego wnętrza.</p>
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Karolina/Karolina.jpg" data-lightbox="example-set02" data-title=""><img class="example-image" src="assets/img/lozka/Karolina/Karolina.jpg" alt="Pierwsze zdjęcie łóżka Luciana Plus"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Karolina/Karolina 2.jpg" data-lightbox="example-set02" data-title=""><img class="example-image" src="assets/img/lozka/Karolina/Karolina 2.jpg" alt="Drugie zdjęcie łóżka Luciana Plus" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Karolina/Karolina 3.jpg" data-lightbox="example-set02" data-title=""><img class="example-image" src="assets/img/lozka/Karolina/Karolina 3.jpg" alt="Trzecie zdjęcie łóżka Luciana Plus" /></a>
+								
+							  </div>
 
-				</tr>
-			</table>
-
-
-
-
-
-
-
-
-
-		</div>
-
-		</div>
-
-		</div>
-		</div>
-
-		</div> <!-- / row -->
-
-		</div> <!-- / Item 01 -->
-
-
-
-
-
-
-		<!-- Item 02 -->
-		<div id="item02" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Karolina </h1><br>
-					<p>- Drewno bukowe, cenione za trwałość i dobre osiągi. </p>
-					<p>- Pokrycia to naturalne materiały, które są bezpieczne dla zdrowia. </p>
-					<p>- Solidna konstrukcja dzięki akcesoriom europejskiego producenta. </p>
-					<p>- 7 opcji kolorystycznych to świetny wybór do każdego wnętrza.</p>
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Karolina/Karolina.jpg">
-									<img src="assets/img/lozka/Karolina/Karolina.jpg"
-										alt="Pierwsze zdjęcie łóżka Karolina">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Karolina/Karolina 2.jpg">
-									<img src="assets/img/lozka/Karolina/Karolina 2.jpg"
-										alt="Drugie zdjęcie łóżka Karolina">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Karolina/Karolina 3.jpg">
-									<img src="assets/img/lozka/Karolina/Karolina 3.jpg"
-										alt="Trzecie zdjęcie łóżka Karolina">
-								</a>
-							</div>
-
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Łóżko jest jednym z najczęściej używanych elementów wyposażenia wnętrz. Dlatego wyboru
 							należy dokonywać z odpowiedzialnością. Najbezpieczniejszym sposobem na relaks i odpoczynek
@@ -369,232 +339,257 @@
 							„Karolina”. Wybierz idealną opcję.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">900 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria </td>
+							<td data-th="result">Producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item2 -->
+
+			<!-- item3 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Luciana plus/Luciana Plus.jpg" alt="łóżko Jasmin Plus">
+				</div>
+				<div class=" fullname">
+					Luciana Plus
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Jasmin Plus</h2>
+					<p class="fullname__description">- Wykonany z naturalnego materiału. Nadaje się do szczególnych wymagań w zakresie
+						hipoalergiczności i przyjazności dla środowiska.</p>
+					<p class="fullname__description">- Pokryty naturalnym olejem lnianym lub lakierem. Nie szkodzi zdrowiu. </p>
+					<p class="fullname__description">- Solidna i niezawodna konstrukcja.</p>
+					
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Luciana plus/Luciana Plus.jpg" data-lightbox="example-set03" data-title=""><img class="example-image" src="assets/img/lozka/Luciana plus/Luciana Plus.jpg" alt="Pierwsze zdjęcie łóżka Luciana Plus "/></a>
+								<a class="example-image-link" href="assets/img/lozka/Luciana plus/Luciana Plus 2.jpg" data-lightbox="example-set03" data-title=""><img class="example-image" src="assets/img/lozka/Luciana plus/Luciana Plus 2.jpg" alt="Drugie zdjęcie łóżka Luciana Plus" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Luciana plus/Luciana Plus 3.jpg" data-lightbox="example-set03" data-title=""><img class="example-image" src="assets/img/lozka/Luciana plus/Luciana Plus 3.jpg" alt="Trzecie zdjęcie łóżka Luciana Plus" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">850 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesoria </td>
-					<td data-th="result">Producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 02 -->
-
-		<!-- Item 03 -->
-		<div id="item03" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Luciana Plus</h1><br>
-					<p>- Wykonany z naturalnego materiału. Nadaje się do szczególnych wymagań w zakresie
-						hipoalergiczności i przyjazności dla środowiska. </p>
-					<p>- Pokryty naturalnym olejem lnianym lub lakierem. Nie szkodzi zdrowiu. </p>
-					<p>- Solidna i niezawodna konstrukcja.</p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="">
-									<img src="assets/img/lozka/Luciana plus/Luciana Plus.jpg"
-										alt="Pierwsze zdjęcie łóżka Luciana Plus ">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="../assets/img/lozka/Luciana plus/Luciana Plus 2.jpg">
-									<img src="assets/img/lozka/Luciana plus/Luciana Plus 2.jpg"
-										alt="Drugie zdjęcie łóżka Luciana Plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Luciana plus/Luciana Plus 3.jpg">
-									<img src="assets/img/lozka/Luciana plus/Luciana Plus 3.jpg"
-										alt="Trzecie zdjęcie łóżka Luciana Plus">
-								</a>
-							</div>
 							
-
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Włoski urok w połączeniu z funkcjonalnością i praktycznością to najbardziej trafna
 							charakterystyka łóżka Luciana Plus. Ten model z pewnością zadowoli koneserów wyrafinowanej
 							prostoty i wygody.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2173 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">880 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria </td>
+							<td data-th="result">Producent Häfele</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item3 -->
+
+			<!-- item4 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Lux/Lux.jpg" alt="łóżko Lux">
+				</div>
+				<div class=" fullname">
+					Luks
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Lux</h2>
+					<p class="fullname__description">- Materiał z natury. Naturalne drewno bukowe.</p>
+					<p class="fullname__description">- Pokryty olejem lnianym lub lakierami akrylowymi. Wybór należy do ciebie. </p>
+					<p class="fullname__description">-Solidny i niezawodny dzięki wysokiej jakości złączkom i połączeniom.</p>
+				
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Lux/Lux.jpg" data-lightbox="example-set04" data-title=""><img class="example-image" src="assets/img/lozka/Lux/Lux.jpg" alt=""/></a>
+								<a class="example-image-link" href="assets/img/lozka/Lux/Lux 2.jpg" data-lightbox="example-set04" data-title=""><img class="example-image" src="assets/img/lozka/Lux/Lux 2.jpg" alt="" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Lux/Lux 3.jpg" data-lightbox="example-set04" data-title=""><img class="example-image" src="assets/img/lozka/Lux/Lux 3.jpg" alt="" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2173 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">920 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 03 -->
-
-
-
-
-
-
-
-		<!-- Item 04 -->
-		<div id="item04" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Luks</h1><br>
-					<p>- Materiał z natury. Naturalne drewno bukowe. </p>
-					<p>- Pokryty olejem lnianym lub lakierami akrylowymi. Wybór należy do ciebie. </p>
-					<p>- Solidny i niezawodny dzięki wysokiej jakości złączkom i połączeniom.</p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Lux/Lux.jpg">
-									<img src="assets/img/lozka/Lux/Lux.jpg" alt="Pierwsze zdjęcie łóżka Lux">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Lux/Lux 2.jpg">
-									<img src="assets/img/lozka/Lux/Lux 2.jpg" alt="Drugie zdjęcie łóżka Lux">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Lux/Lux 3.jpg">
-									<img src="assets/img/lozka/Lux/Lux 3.jpg" alt="Tzecie zdjęcie łóżka Lux">
-								</a>
-							</div>
-
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Duże łóżko z dużym wyborem opcji dotyczy dokładnie łóżka Luks. Jeśli zdecydowałeś się
 							stworzyć przytulne, zdrowe, a jednocześnie lakoniczne wnętrze swojej sypialni, to ten
@@ -603,118 +598,127 @@
 							przedmiotów.
 						</p>
 					</div>
-					
-				</div>
 
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">1020 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesora </td>
+							<td data-th="result">Producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
+
+				</div>
 			</div>
 
+			<!-- item4 -->
+
+			<!-- item5 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Milana/Milana.jpg" alt="łóżko Milana">
+				</div>
+				<div class=" fullname">
+					Milana
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Milana</h2>
+					<p class="fullname__description">- Bez szkodliwych, przyjaznych dla zdrowia klejów.</p>
+					<p class="fullname__description">- Powlekanie olejem lnianym lub lakierami, które nie tworzą szkodliwych oparów. </p>
+					<p class="fullname__description">- Konstrukcja jest trwała i niezawodna, nie skrzypi.</p>
+					<p class="fullname__description">- Szeroka gama kolorów</p>
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Milana/Milana.jpg" data-lightbox="example-set05" data-title=""><img class="example-image" src="assets/img/lozka/Milana/Milana.jpg" alt="Pierwsze zdjęcie łóżka Milana"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Milana/Milana 2.jpg" data-lightbox="example-set05" data-title=""><img class="example-image" src="assets/img/lozka/Milana/Milana 2.jpg" alt="Drugie zdjęcie łóżka Milana" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Milana/Milana 3.jpg" data-lightbox="example-set05" data-title=""><img class="example-image" src="assets/img/lozka/Milana/Milana 3.jpg" alt="Trzecie zdjęcie łóżka Milana" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">1020 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesora </td>
-					<td data-th="result">Producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 04 -->
-
-
-
-
-
-
-		<!-- Item 05 -->
-		<div id="item05" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Milana </h1><br>
-					<p>- Bez szkodliwych, przyjaznych dla zdrowia klejów. </p>
-					<p>- Powlekanie olejem lnianym lub lakierami, które nie tworzą szkodliwych oparów. </p>
-					<p>- Konstrukcja jest trwała i niezawodna, nie skrzypi. </p>
-					<p>- Szeroka gama kolorów.</p>
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Milana/Milana.jpg">
-									<img src="assets/img/lozka/Milana/Milana.jpg" alt="Pierwsze zdjęcie łóżka Milana">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Milana/Milana 2.jpg">
-									<img src="assets/img/lozka/Milana/Milana 2.jpg" alt="Drugie zdjęcie łóżka Milana">
-								</a>
-							</div>
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Milana/Milana 3.jpg">
-									<img src="assets/img/lozka/Milana/Milana 3.jpg" alt="Trzecie zdjęcie łóżka Milana">
-								</a>
-							</div>
-
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Każde nasze łóżko jest wyjątkowe, ponieważ ma unikalną stylistykę drewna. Ale jeszcze
 							większym wyborem dla Twojej wygodnej i przytulnej sypialni jest możliwość zakupu łóżka z
@@ -723,120 +727,126 @@
 							jak i z dodatkowym wyposażeniem „Milana” wygląda przyzwoicie i harmonijnie.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">(984mm) 1484mm (1684mm) 1884mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">900 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria </td>
+							<td data-th="result">Producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item5 -->
+
+			<!-- item6 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Scarlett/Scarlett.jpg" alt="łóżko Scarlett">
+				</div>
+				<div class=" fullname">
+					Scarlett
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Scarlett</h2>
+					<p class="fullname__description">- Drewno bukowe jest materiałem naturalnym. Jakość dzięki sprawdzonej technologii obróbki drewna.</p>
+					<p class="fullname__description">- Pokrycie olejem lub lakierami. Wybór należy do ciebie.  </p>
+					<p class="fullname__description">- Akcesoria europejskiego producenta, który gwarantuje jakość.</p>
+					
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Scarlett/Scarlett.jpg" data-lightbox="example-set06" data-title=""><img class="example-image" src="assets/img/lozka/Scarlett/Scarlett.jpg" alt="Pierwsze zdjęcie łóżka Scarlet"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Scarlett/Scarlett 2.jpg" data-lightbox="example-set06" data-title=""><img class="example-image" src="assets/img/lozka/Scarlett/Scarlett 2.jpg" alt="Drugie zdjęcie łóżka Scarlet" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Scarlett/Scarlett 3.jpg" data-lightbox="example-set06" data-title=""><img class="example-image" src="assets/img/lozka/Scarlett/Scarlett 3.jpg" alt="Trzecie zdjęcie łóżka Scarlet" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">984mm (1284mm) 1484mm (1684mm) 1884mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">900 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesoria </td>
-					<td data-th="result">Producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 05 -->
-
-
-
-
-		<!-- Item 06 -->
-		<div id="item06" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Scarlett</h1><br>
-					<p>- Drewno bukowe jest materiałem naturalnym. Jakość dzięki sprawdzonej technologii obróbki drewna.
-					</p>
-					<p>- Pokrycie olejem lub lakierami. Wybór należy do ciebie. </p>
-					<p>- Akcesoria europejskiego producenta, który gwarantuje jakość.</p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Scarlett/Scarlett.jpg">
-									<img src="assets/img/lozka/Scarlett/Scarlett.jpg"
-										alt="Pierwsze zdjęcie łóżka Scarlet">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Scarlett/Scarlett 2.jpg">
-									<img src="assets/img/lozka/Scarlett/Scarlett 2.jpg"
-										alt="Drugie zdjęcie łóżka Scarlet">
-								</a>
-							</div>
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Scarlett/Scarlett 3.jpg">
-									<img src="assets/img/lozka/Scarlett/Scarlett 3.jpg"
-										alt="Trzecie zdjęcie łóżka Scarlet">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+								
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Szkarłatne łóżko wykonane jest z naturalnego drewna bukowego i może być pokryte olejem
 							lnianym lub lakierami. Materiały, które są wybierane do produkcji, są zawsze przyjazne dla
@@ -845,126 +855,128 @@
 							pamiętać, że projekt zapewnia możliwość umieszczenia szuflad dla pościeli.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">(1670mm) 1870mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">1020 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria </td>
+							<td data-th="result">Producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item6 -->
+
+			<!-- item7 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Selena plus/Selena Plus.jpg" alt="łóżko Selena Plus">
+				</div>
+				<div class=" fullname">
+					Selena Plus
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Selena Plus</h2>
+					<p class="fullname__description">- Ekologiczny materiał, jeśli martwisz się o zdrowie swoich bliskich.</p>
+					<p class="fullname__description">- Bezpieczna, hipoalergiczna powłoka. </p>
+					<p class="fullname__description">- Solidna konstrukcja zaprojektowana z możliwością wytrzymania dużych obciążeń.</p>
+				
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Selena plus/Selena Plus.jpg" data-lightbox="example-set07" data-title=""><img class="example-image" src="assets/img/lozka/Selena plus/Selena Plus.jpg" alt="Pierwsze zdjęcie łóżka Selena plus"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Selena plus/Selena Plus 2.jpg" data-lightbox="example-set07" data-title=""><img class="example-image" src="assets/img/lozka/Selena plus/Selena Plus 2.jpg" alt="Drugie zdjęcie łóżka Selena plus" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Selena plus/Selena Plus 3.jpg" data-lightbox="example-set07" data-title=""><img class="example-image" src="assets/img/lozka/Selena plus/Selena Plus 3.jpg" alt="Trzecie zdjęcie łóżka Selena plus" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">(1670mm) 1870mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">1020 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesoria </td>
-					<td data-th="result">Producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 06 -->
-
-
-
-
-		<!-- Item 07 -->
-		<div id="item07" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Selena Plus </h1><br>
-					<p>- Ekologiczny materiał, jeśli martwisz się o zdrowie swoich bliskich.</p>
-					<p>- Bezpieczna, hipoalergiczna powłoka. </p>
-					<p>- Solidna konstrukcja zaprojektowana z możliwością wytrzymania dużych obciążeń.</p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Selena plus/Selena Plus.jpg">
-									<img src="assets/img/lozka/Selena plus/Selena Plus.jpg"
-										alt="Pierwsze zdjęcie łóżka Selena plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Selena plus/Selena Plus 2.jpg">
-									<img src="assets/img/lozka/Selena plus/Selena Plus 2.jpg"
-										alt="Drugie zdjęcie łóżka Selena plus">
-								</a>
-							</div>
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Selena plus/Selena Plus 3.jpg">
-									<img src="assets/img/lozka/Selena plus/Selena Plus 3.jpg"
-										alt="Trzecie zdjęcie łóżka Selena plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Selena plus/Selena Plus 4.jpg">
-									<img src="assets/img/lozka/Selena plus/Selena Plus 4.jpg"
-										alt="Czwarte zdjęcie łóżka Selena plus">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Łóżko Selena Plus zostało wykonane w duchu zwyczaju i wygody. Duża gamma kolorów dla oleju
 							lnianego i lakieru pozwala wybrać opcję najlepiej pasującą do Twojego wnętrza.
@@ -974,668 +986,687 @@
 							drewna dębowego. Jego naturalne piękno podkreśla bezbarwny lakier.
 							Łóżko Selena Plus można również wyposażyć w szuflady na pościel, które można umieścić z
 							jednej strony dla modeli jedno-osobowych i po obu stronach dla dwu osobowych.
-
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">840 mm</td>
+
+						</tr>
+
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item7 -->
+
+			<!-- item8 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Silwana plus/Silwana Plus.jpg" alt="łóżko Silwana Plus">
+				</div>
+				<div class=" fullname">
+					Silwana Plus
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Silwana Plus</h2>
+					<p class="fullname__description">- Zdrowy sen dzięki przyjazności dla środowiska materiału.</p>
+					<p class="fullname__description">- Bezpieczna powłoka. </p>
+					<p class="fullname__description">- Praktyczna i trwała konstrukcja. Wytrzymuje duże obciążenia.</p>
+				
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Silwana plus/Silwana Plus.jpg" data-lightbox="example-set08" data-title=""><img class="example-image" src="assets/img/lozka/Silwana plus/Silwana Plus.jpg" alt="Pierwsze zdjęcie łóżka Silwana plus"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Silwana plus/Silwana Plus 2.jpg" data-lightbox="example-set08" data-title=""><img class="example-image" src="assets/img/lozka/Silwana plus/Silwana Plus 2.jpg" alt="Drugie zdjęcie łóżka Silwana plus" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Silwana plus/Silwana Plus 3.jpg" data-lightbox="example-set08" data-title=""><img class="example-image" src="assets/img/lozka/Silwana plus/Silwana Plus 3.jpg" alt="Trzecie zdjęcie łóżka Silwana plus" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">840 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 07 -->
-
-
-
-		<!-- Item 08 -->
-		<div id="item08" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Silwana Plus </h1><br>
-					<p>- Zdrowy sen dzięki przyjazności dla środowiska materiału. </p>
-					<p>- Bezpieczna powłoka. </p>
-					<p>- Praktyczna i trwała konstrukcja. Wytrzymuje duże obciążenia.</p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Silwana plus/Silwana Plus.jpg">
-									<img src="assets/img/lozka/Silwana plus/Silwana Plus.jpg"
-										alt="Pierwsze zdjęcie łóżka Silwana plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Silwana plus/Silwana Plus 2.jpg">
-									<img src="assets/img/lozka/Silwana plus/Silwana Plus 2.jpg"
-										alt="Drugie zdjęcie łóżka Silwana plus">
-								</a>
-							</div>
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Silwana plus/Silwana Plus 3.jpg">
-									<img src="assets/img/lozka/Silwana plus/Silwana Plus 3.jpg"
-										alt="Trzecie zdjęcie łóżka Silwana plus">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Powściągliwy i wszechstronny design łóżka jest doskonale uzupełniony szafkami w nowej
 							modyfikacji Silwana Plus i stanowi idealne rozwiązanie sypialni we współczesnym stylu.
 						</p>
 					</div>
-				
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">840 mm</td>
+
+						</tr>
+
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item8 -->
+
+			<!-- item9 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Sofia/Sofia.jpg" alt="łóżko Sofia">
+				</div>
+				<div class=" fullname">
+					Sofia
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Sofia</h2>
+					<p class="fullname__description">- Naturalny i przyjazny dla środowiska materiał - drewno bukowe.</p>
+					<p class="fullname__description">- Łatwy w utrzymaniu. </p>
+					<p class="fullname__description">- Konstrukcja jest odporna na duże obciążenia. Optymalna grubość ramy.</p>
+					<p class="fullname__description">- 7 opcji kolorystycznych - od naturalnego do białego.</p>
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Sofia/Sofia.jpg" data-lightbox="example-set09" data-title=""><img class="example-image" src="assets/img/lozka/Sofia/Sofia.jpg" alt="Pierwsze zdjęcie łóżka Sofia"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Sofia/Sofia 2.jpg" data-lightbox="example-set09" data-title=""><img class="example-image" src="assets/img/lozka/Sofia/Sofia 2.jpg" alt="Drugie zdjęcie łóżka Sofia" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Sofia/Sofia 3.jpg" data-lightbox="example-set09" data-title=""><img class="example-image" src="assets/img/lozka/Sofia/Sofia 3.jpg" alt="Trzecie zdjęcie łóżka Sofia" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">974mm (1274mm) 1474mm (1674mm) 1874mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">840 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 08 -->
-
-
-
-		<!-- Item 09 -->
-		<div id="item09" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Sofia </h1><br>
-					<p>- Naturalny i przyjazny dla środowiska materiał - drewno bukowe.</p>
-					<p>- Łatwy w utrzymaniu. </p>
-					<p>- Konstrukcja jest odporna na duże obciążenia. Optymalna grubość ramy. </p>
-					<p>- 7 opcji kolorystycznych - od naturalnego do białego.</p>
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Sofia/Sofia.jpg">
-									<img src="assets/img/lozka/Sofia/Sofia.jpg" alt="Pierwsze zdjęcie łóżka Sofia">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Sofia/Sofia 2.jpg">
-									<img src="assets/img/lozka/Sofia/Sofia 2.jpg" alt="Drugie zdjęcie łóżka Sofia">
-								</a>
-							</div>
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Sofia/Sofia 3.jpg">
-									<img src="assets/img/lozka/Sofia/Sofia 3.jpg" alt="Trzecie zdjęcie łóżka Sofia">
-								</a>
-							</div>
-
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Łóżko Sofia to bardzo delikatny i elegancki model. Nieważkości i lekkość produktu są idealne
 							do stworzenia jasnej i przestronnej sypialni. 7 odcieni naturalnego drewna oraz biały kolor
 							pozwolą Ci stworzyć pożądaną harmonię kolorów.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">850 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria </td>
+							<td data-th="result">Producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item9 -->
+
+			<!-- item10 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Walencja/Walencja.jpg" alt="łó0żko Walencja">
+				</div>
+				<div class=" fullname">
+					Walencja
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Walencja</h2>
+					<p class="fullname__description">- Naturalne drewno to gwarancja zdrowego snu.</p>
+					<p class="fullname__description">- Lakier akrylowy lub powłoka lniana - łatwa w pielęgnacji i zachowująca swój pierwotny wygląd. </p>
+					<p class="fullname__description">- Niezawodne akcesoria o wysokiej jakości połączenia detalu.</p>
+					
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Walencja/Walencja.jpg" data-lightbox="example-set10" data-title=""><img class="example-image" src="assets/img/lozka/Walencja/Walencja.jpg" alt="Pierwsze zdjęcie łóżka Walencja"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Walencja/Walencja 2.jpg" data-lightbox="example-set10" data-title=""><img class="example-image" src="assets/img/lozka/Walencja/Walencja 2.jpg" alt="Drugie zdjęcie łóżka Walencja" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Walencja/Walencja 3.jpg" data-lightbox="example-set10" data-title=""><img class="example-image" src="assets/img/lozka/Walencja/Walencja 3.jpg" alt="Trzecie zdjęcie łóżka Walencja" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Walencja/Walencja 4.jpg" data-lightbox="example-set10" data-title=""><img class="example-image" src="assets/img/lozka/Walencja/Walencja 4.jpg" alt="Czwarte zdjęcie łóżka Walencja" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">850 mm/td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesoria </td>
-					<td data-th="result">Producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 09 -->
-
-
-
-		<!-- Item 10 -->
-		<div id="item10" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Walencja</h1><br>
-					<p>- Naturalne drewno to gwarancja zdrowego snu. </p>
-					<p>- Lakier akrylowy lub powłoka lniana - łatwa w pielęgnacji i zachowująca swój pierwotny wygląd.
-					</p>
-					<p>- Niezawodne akcesoria o wysokiej jakości połączenia detalu. </p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets//img/lozka/Walencja/Walencja.jpg">
-									<img src="assets//img/lozka/Walencja/Walencja.jpg"
-										alt="Pierwsze zdjęcie łóżka Walencja ">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Walencja/Walencja 2.jpg">
-									<img src="assets/img/lozka/Walencja/Walencja 2.jpg"
-										alt="Drugie zdjęcie łóżka Walencja">
-								</a>
-							</div>
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Walencja/Walencja 3.jpg">
-									<img src="assets/img/lozka/Walencja/Walencja 3.jpg"
-										alt="Trzeciedjęcie łóżka Walencja">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Walencja/Walencja 4.jpg">
-									<img src="assets/img/lozka/Walencja/Walencja 4.jpg"
-										alt="Czwarte zdjęcie łóżka Walencja">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Łóżko Walencja to, po pierwsze, masywne, trwałe części, które gwarantują jakość i trwałość,
 							a po drugie, rygorystyczna konstrukcja z minimalnym zgięciem zagłówka. Wybierając kolor tego
 							modelu, weź pod uwagę styl swojego pokoju.
 							Wybór łóżka Walencja zapewni przytulną i ciepłą atmosferę w sypialni.
-
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mmm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">(1270mm) 1470mm (1670mm) 1870mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">1020 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesora </td>
+							<td data-th="result">producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item10 -->
+
+			<!-- item11 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg" alt="łóżko Wenecja Plus">
+				</div>
+				<div class=" fullname">
+					Wenecja Plus
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Wenecja Plus</h2>
+					<p class="fullname__description">- Zdrowy sen dzięki naturalności materiału.</p>
+					<p class="fullname__description">- Powlekanie lakierem lub olejem lnianym. </p>
+					<p class="fullname__description">- Konstrukcja wytrzymuje duże obciążenia.</p>
+					
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg" data-lightbox="example-set11" data-title=""><img class="example-image" src="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg" alt="Pierwsze zdjęcie łożka Wenecja Plus"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Wenecja plus/Wenecja Plus 2.jpg" data-lightbox="example-set11" data-title=""><img class="example-image" src="assets/img/lozka/Wenecja plus/Wenecja Plus 2.jpg" alt="Drugie zdjęcie łożka Wenecja Plus" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Wenecja plus/Wenecja Plus 3.jpg" data-lightbox="example-set11" data-title=""><img class="example-image" src="assets/img/lozka/Wenecja plus/Wenecja Plus 3.jpg" alt="Trzecie zdjęcie łożka Wenecja Plus" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">970mm (1270mm) 1470mm (1670mm) 1870mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">1020 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesora </td>
-					<td data-th="result">producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 10 -->
-
-
-
-		<!-- Item 11 -->
-		<div id="item11" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Wenecja Plus</h1><br>
-					<p>- Zdrowy sen dzięki naturalności materiału.</p>
-					<p>- Powlekanie lakierem lub olejem lnianym. </p>
-					<p>- Konstrukcja wytrzymuje duże obciążenia. </p>
-
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg">
-									<img src="assets/img/lozka/Wenecja plus/Wenecja Plus.jpg"
-										alt="Pierwsze zdjęcie łożka Wenecja Plus">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wenecja plus/Wenecja Plus 2.jpg">
-									<img src="assets/img/lozka/Wenecja plus/Wenecja Plus 2.jpg"
-										alt="Drugie zdjęcie łożka Wenecja Plus">
-								</a>
-							</div>
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wenecja plus/Wenecja Plus 3.jpg">
-									<img src="assets/img/lozka/Wenecja plus/Wenecja Plus 3.jpg"
-										alt="Trzecie zdjęcie łożka Wenecja Plus">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										900 x 2 000 mm<br>
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Wenecja Plus to łóżko, które łączy w sobie spokój i piękno nadmorskiej stolicy z
 							niezawodnością i wygodą. Dzięki możliwości dodawania szuflad do łóżka możesz z łatwością
 							wypełnić przestrzeń pod nim.
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">974 mm (1274mm) 1474mm (1674mm) 1874mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">840 mm</td>
+
+						</tr>
+
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item11 -->
+
+			<!-- item12 -->
+			<div class="person js-dropdown-item">
+				<div class="avatar"> <img src="assets/img/lozka/Wiktoria/Wiktoria.jpg" alt="łóżko Wiktorias">
+				</div>
+				<div class=" fullname">
+					Wiktoria
+				</div>
+
+				<div class="js-description">
 
 
+					<h2 class="fullname">Wiktoria</h2>
+					<p class="fullname__description">- Naturalność materiału zapewnia zdrową atmosferę w pomieszczeniu.</p>
+					<p class="fullname__description">- Profesjonalne wykończenie. Wysokiej jakości lakiery i oleje. </p>
+					<p class="fullname__description">- Niezawodne i trwałe okucia gwarantują długą beztroską żywotność.</p>
+					<p class="fullname__description">- Szeroka gama kolorów, rozmiarów i dwa rodzaje łączenia materiałów.</p>
 
 
+					<div class="parent">
+						<div class="div1">
+							<div class="gallery">
+								<a class="example-image-link" href="assets/img/lozka/Wiktoria/Wiktoria.jpg" data-lightbox="example-set12" data-title=""><img class="example-image" src="assets/img/lozka/Wiktoria/Wiktoria.jpg" alt="Pierwsze zdjęcie Łóżka Wiktoria"/></a>
+								<a class="example-image-link" href="assets/img/lozka/Wiktoria/Wiktoria 2.jpg" data-lightbox="example-set12" data-title=""><img class="example-image" src="assets/img/lozka/Wiktoria/Wiktoria 2.jpg" alt="Drugie zdjęcie Łóżka Wiktoria" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Wiktoria/Wiktoria 3.jpg" data-lightbox="example-set12" data-title=""><img class="example-image" src="assets/img/lozka/Wiktoria/Wiktoria 3.jpg" alt="Trzecie zdjęcie Łóżka Wiktoria" /></a>
+								<a class="example-image-link" href="assets/img/lozka/Wiktoria/Wiktoria 4.jpg" data-lightbox="example-set12" data-title=""><img class="example-image" src="assets/img/lozka/Wiktoria/Wiktoria 4.jpg" alt="Czwarte zdjęcie Łóżka Wiktoria" /></a>
+								
+							  </div>
 
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">974 mm (1274mm) 1474mm (1674mm) 1874mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">840 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 11 -->
-
-
-		<!-- Item 12 -->
-		<div id="item12" class="port">
-
-			<div class="">
-				<div class="description">
-					<h1>Wiktoria</h1><br>
-					<p>- Naturalność materiału zapewnia zdrową atmosferę w pomieszczeniu. </p>
-					<p>- Profesjonalne wykończenie. Wysokiej jakości lakiery i oleje. </p>
-					<p>- Niezawodne i trwałe okucia gwarantują długą beztroską żywotność. </p>
-					<p>- Szeroka gama kolorów, rozmiarów i dwa rodzaje łączenia materiałów.</p>
-
-
-
-
-
-					<div class="tz-gallery">
-
-						<div class="row">
-
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wiktoria/Wiktoria.jpg">
-									<img src="assets/img/lozka/Wiktoria/Wiktoria.jpg"
-										alt="Pierwsze zdjęcie Łóżka Wiktoria">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wiktoria/Wiktoria 2.jpg">
-									<img src="assets/img/lozka/Wiktoria/Wiktoria 2.jpg "
-										alt="Drugie zdjęcie Łóżka Wiktoria">
-								</a>
-							</div>
-
-
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wiktoria/Wiktoria 3.jpg">
-									<img src="assets/img/lozka/Wiktoria/Wiktoria 3.jpg "
-										alt="Trzecie zdjęcie Łóżka Wiktoria">
-								</a>
-							</div>
-							<div class="col-sm-6 col-md-6">
-								<a class="lightbox" href="assets/img/lozka/Wiktoria/Wiktoria 4.jpg ">
-									<img src="assets/img/lozka/Wiktoria/Wiktoria 4.jpg "
-										alt="Czwarte zdjęcie Łóżka Wiktoria">
-								</a>
-							</div>
+							
 						</div>
+
+						<div class="div2">
+							<table class="rwd-table">
+
+								<tr>
+									<td data-th="Parametr">Rodzaj drewna </td>
+									<td data-th="result">Buk / Dąb</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Sposób wykonania </td>
+									<td data-th="result"> z litego drewna / ze sklejanego</td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Rozmiary </td>
+									<td data-th="result">
+										
+										1 200 x 2 000 mm<br>
+										1 400 x 2 000 mm<br>
+										1 600 x 2 000 mm<br>
+										1 800 x 2 000 mm </td>
+
+								</tr>
+								<tr>
+									<td data-th="Parametr">Kolor </td>
+									<td data-th="result">
+										<div class="sphere beige this"> </div>
+										<div class="sphere nut"></div>
+										<div class="sphere wenhe"></div>
+										<div class="sphere natural"></div>
+										<div class="sphere nuts"></div>
+										<div class="sphere white"></div>
+										<div class="sphere wenhes"></div>
+										<div class="sphere naturals"></div>
+
+
+
+								</tr>
+
+
+
+							</table>
+						</div>
+					</div>
+					<div class="div2">
 						<p class="description__image">
 							Łóżko Wiktoria to zwycięstwo nad szarym codziennym życiem i tym samym rodzajem codziennego
 							życia. Drewno jako materiał jest zawsze odpowiednie i doskonale łączy się z dowolnymi
 							materiałami: naturalne tkaniny, metal, szkło ... Również łóżka z drewna nadają się do
 							różnych stylów. Zaaranżuj sypialnię tak aby odpoczywać zarówno w ciałem jak i duszą.
-
-
 						</p>
 					</div>
-					
+
+
+
+
+					<table class="rwd-table">
+						<th class="">Parametry techniczne łóżka</th>
+						<tr>
+							<td data-th="Parametr">Długość</td>
+							<td data-th="result">2090 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Szerokość</td>
+							<td data-th="result">(1284mm) 1484mm (1684mm) 1884mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Wysokość zagłówka</td>
+							<td data-th="result">850 mm</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Akcesoria</td>
+							<td data-th="result">producent Häfele</td>
+		
+						</tr>
+						<tr>
+							<td data-th="Parametr">Opcja Szuflady </td>
+							<td data-th="result">Tak</td>
+
+						</tr>
+						<tr>
+							<td data-th="Parametr">Ilość listew stelażu </td>
+							<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
+
+						</tr>
+
+					</table>
+
+
+
 
 				</div>
-
 			</div>
 
+			<!-- item12 -->
 
-
-
-
-
-			<table class="rwd-table">
-				<th class="">Parametry techniczne łóżka</th>
-				<tr>
-					<td data-th="Parametr">Długość</td>
-					<td data-th="result">2090 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Szerokość</td>
-					<td data-th="result">984mm (1284mm) 1484mm (1684mm) 1884mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Wysokość zagłówka</td>
-					<td data-th="result">850 mm</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Rodzaj drewna </td>
-					<td data-th="result">Buk / Dąb</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Akcesoria</td>
-					<td data-th="result">producent Häfele</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Opcja Szuflady </td>
-					<td data-th="result">Tak</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Ilość listew stelażu </td>
-					<td data-th="result">2 po 19 szt. (dla szerokości materaca 900 mm - 1 rząd)</td>
-
-				</tr>
-				<tr>
-					<td data-th="Parametr">Kolor </td>
-					<td data-th="result">
-						<div class="sphere beige"></div>
-						<div class="sphere nut"></div>
-						<div class="sphere wenhe"></div>
-						<div class="sphere natural"></div>
-						<div class="sphere nuts"></div>
-						<div class="sphere white"></div>
-						<div class="sphere wenhes"></div>
-						<div class="sphere naturals"></div>
-
-
-
-				</tr>
-			</table>
-
-
-
-		</div> <!-- / Item 12 -->
+			
 
 
 
@@ -1644,11 +1675,30 @@
 
 
 
-	</section> <!-- / projects -->
-	<!-- partial -->
 
 
 
+
+
+
+
+
+
+
+
+		</div>
+	</div>
+
+
+
+		
+		
+	
+		
+
+
+
+	
 
 
 
@@ -1681,7 +1731,23 @@
 			<p class="footer__description">Poltyka prywatności</p>
 		</div>
 	</footer>
-
+	<script>
+		$(document).ready(function () {
+			$('.js-dropdown-item').dropdownLayer({
+				'elemSelector': "js-dropdown-item",
+				'containerClass': "js-dropdown-items",
+				'descriptionClass': "js-description",
+				'dropdownClass': "js-dropdown",
+				'arrowClass': "js-dropdown-arrow",
+				'dropdownContentClass': "js-dropdown-content",
+				'disableDropdownClass': "js-dropdown-disable",
+				'slideUpSpeed': 400,
+				'slideDownSpeed': 400,
+				'useSlideDown': true,
+				'useSlideUp': true,
+			});
+		});
+	</script>
 
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.6.1/galleria.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
@@ -1691,14 +1757,16 @@
 
 	<script src="js/main.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
-	<script src="js/manifest.json"></script>
-	<script src="./scripts.js"></script>
+
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-	<script src="js/main.js"></script>
+
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 	<script>
 		baguetteBox.run('.tz-gallery');
 	</script>
+
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js'></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js'></script>
 
 </body>
 
