@@ -2813,7 +2813,7 @@ section h3.section-subheading {
   padding-bottom: calc(8rem - 16px); }
   .footer__description {
     font-weight: 300;
-    font-size: 1.25rem;
+    font-size: 1.85rem;
     line-height: 2.25rem;
     max-width: 580px;
     margin: 2rem 0 1.5rem; }
@@ -2856,8 +2856,8 @@ section h3.section-subheading {
   display: -ms-flexbox;
   display: flex; }
   .social__icon {
-    width: 30px;
-    height: 30px; }
+    width: 40px;
+    height: 40px; }
   .social__item + .social__item {
     margin-left: 1.5rem; }
   .social__link {
@@ -3101,27 +3101,12 @@ section h3.section-subheading {
 .formContact {
   background-color: #686460; }
 
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333;
-  min-height: 100%; }
-
 a {
-  color: #fff; }
+  color: darkgrey !important;
+  font-size: 1.8rem; }
 
 .row {
   margin-bottom: 50px; }
-
-.dupa {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row; }
 
 .gallery ul li {
   float: left;
@@ -3139,7 +3124,8 @@ header {
   background: #4d3f2f;
   color: darkgray;
   text-align: center;
-  padding-bottom: 120px; }
+  padding-bottom: 90px;
+  padding-top: 30px; }
 
 header h1 {
   text-align: center;
@@ -3614,10 +3600,12 @@ body.lb-disable-scrolling {
 
 @media screen and (max-width: 600px) {
   .container {
-    font-size: 0.5rem !important;
     line-height: 20px;
     margin: 0 auto;
     padding: 0; } }
+
+.containers {
+  width: 100%; }
 
 html {
   -webkit-box-sizing: border-box;
