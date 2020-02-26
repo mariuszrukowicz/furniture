@@ -1,15 +1,10 @@
 
 
-body {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  line-height: 1.5;
-  color: #333;
-  min-height: 100%;
-}
+
 
 a {
-  color: #fff;
+  color: darkgrey !important;
+  font-size: 1.8rem;
 }
 
 .row {
@@ -18,10 +13,7 @@ a {
 
 }
 
-.dupa{
-  display: flex;
-  flex-direction: row;
-}
+
 // .row img {
 //   max-width: 100%;
 //   height: auto;
@@ -46,7 +38,8 @@ header {
   background: rgb(77, 63, 47);
   color: darkgray;
   text-align: center;
-  padding-bottom: 120px;
+  padding-bottom: 90px;
+  padding-top: 30px;
 }
 header h1 {
   text-align: center;
@@ -61,7 +54,7 @@ header h1 {
 
 }
 header h1 span {
-  margin-top: 3rem;
+  margin-top: 3rem ;
   font-size: 30px;
   
 }
@@ -475,11 +468,13 @@ grid-template-rows: 1fr;
 }
 .container{
 
-
   @media screen and (max-width: 600px) {
-    font-size: 0.5rem !important; 
+    
     line-height: 20px;
     margin: 0 auto;
     padding: 0;
   }
+}
+.containers{
+  width: 100%;
 }
