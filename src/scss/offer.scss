@@ -58,3 +58,30 @@
     opacity: 1;
 
 }
+.close {
+    
+    font-size: 2.2rem !important;
+    display:inline-block;
+    padding:2px 5px;
+    font-weight: 900 ;
+    position: absolute;
+    top: 10;
+    right: 5%;
+    height: 50px;
+    color:rgb(104, 100, 96) !important;
+    @media (max-width: 720px) {
+        font-size: 14px;
+        text-align: inherit;
+        position: absolute;
+top: 0;
+right: 0;    
+        }
+    
+}
+.close:hover {
+   
+    display:inline-block;
+    padding:2px 5px;
+    
+    
+}
