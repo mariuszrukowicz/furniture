@@ -3262,31 +3262,92 @@ header p {
   background-color: yellow; }
 
 .beige {
-  background-color: #c1a097; }
+  background-color: #c1a097;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2; }
 
 .nut {
-  background-color: #54291b; }
+  background-color: #54291b;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 2 / 2 / 3; }
 
 .wenhe {
-  background-color: #39261d; }
+  background-color: #39261d;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 3 / 2 / 4; }
 
 .natural {
-  background-color: #eebf9a; }
+  background-color: #eebf9a;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 4 / 2 / 5; }
 
 .nuts {
-  background-color: #7f4f39; }
+  background-color: #7f4f39;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 1 / 3 / 2; }
 
 .white {
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 2 / 3 / 3; }
 
 .wenhes {
-  background-color: #5b433f; }
+  background-color: #5b433f;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 3 / 3 / 4; }
 
 .naturals {
-  background-color: #eec3a0; }
+  background-color: #eec3a0;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-area: 2 / 4 / 3 / 5; }
+
+.parentee {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
+  -ms-grid-rows: (1fr)[2];
+  grid-template-rows: repeat(2, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; }
+
+.cos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 1rem 1rem;
+  text-align: center; }
 
 .sphere {
-  margin: 2px auto;
+  margin: 8px auto;
   height: 40px;
   width: 40px;
   border-radius: 50%;
@@ -3294,8 +3355,6 @@ header p {
   vertical-align: middle;
   position: relative;
   display: inline-block;
-  margin-left: 2px;
-  margin-right: 2px;
   border: darkgrey 1px solid; }
   @media (max-width: 780px) {
     .sphere {
@@ -3718,6 +3777,10 @@ button:hover:before {
   -webkit-transition: all .4s;
   -o-transition: all .4s;
   transition: all .4s; }
+  @media (max-width: 720px) {
+    .to-top {
+      width: 40px;
+      height: 40px; } }
 
 .to-top.active {
   bottom: 32px;
