@@ -649,3 +649,12 @@ $('.close__buttom').click(function() {
 	$('.port, .gallery ul').removeClass('item_open');
 	return false;
 });
+
+const toTop = document.querySelector(".to-top");
+window.addEventListener("scroll", ()=>{
+	if (window.pageYOffset > 600){
+		toTop.classList.add("active");
+	}else{
+		toTop.classList.remove("active");
+	}
+});

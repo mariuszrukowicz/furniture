@@ -1,0 +1,60 @@
+// .offer{
+//     background-image: url(../assets/img/wood-411643_1920.jpg);
+//     background-position: center;
+//    background-size: contain;
+//     padding-top: 3.4rem;
+//     background-repeat: no-repeat;
+  
+// }
+.offre_items{
+    
+    
+    list-style: none;
+    height: 100%;
+       max-width: 1300px;
+     margin: 1rem auto;
+     padding-bottom: 1em;
+     padding-top: 3rem;
+        font-size: 2rem;
+        letter-spacing: 1.5px;
+      
+        @media (max-width: 720px) {
+            font-size: 14px;
+            text-align: inherit;
+            padding: 3rem ;
+        
+            }
+
+}
+
+.offre_item{
+    
+    font-size: 2rem;
+   padding-top: 1rem;
+   padding-bottom: 0rem;
+
+}
+.to-top{
+    background: rgba(0, 0, 0, 0.897);
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32;
+    color:rgb(251, 249, 249);
+    text-decoration: none;
+    opacity: 0;
+    pointer-events: none;
+    transition: all .4s;
+}
+.to-top.active{
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+
+}
