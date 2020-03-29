@@ -1,0 +1,27 @@
+.wrapper-rodo {
+    background-color: #f2f2f2;
+    padding-bottom: 20px;
+}
+
+.wrapper-rodo__image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+
+}
+
+.wrapper-rodo__body {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: white;
+    padding: 4%;
+    padding-bottom: 0;
+
+}
+
+.rodo__list {
+    list-style: decimal;
+}
