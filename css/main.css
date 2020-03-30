@@ -2906,6 +2906,10 @@ section h3.section-subheading {
   padding-top: 10rem;
   height: 50vh;
   color: #fff; }
+  @media (max-width: 720px) {
+    .form {
+      margin: 20px;
+      margin-bottom: 100px; } }
 
 .form .form-row {
   margin-bottom: 1rem; }
