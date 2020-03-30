@@ -80,6 +80,11 @@
     height: 50vh;
     color: #fff;
 
+    @media (max-width:720px) {
+        margin: 20px;
+        margin-bottom: 100px;
+    }
+
 }
 
 .form .form-row {
@@ -311,4 +316,6 @@
 
 .formContact {
     background-color: rgb(104, 100, 96);
+
+
 }
