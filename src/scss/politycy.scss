@@ -9,6 +9,10 @@
     margin-right: auto;
     width: 30%;
 
+    @media (max-width: 720px) {
+        width: 80%;
+
+    }
 }
 
 .wrapper-rodo__body {
@@ -20,6 +24,11 @@
     padding: 4%;
     padding-bottom: 0;
 
+    @media (max-width: 720px) {
+        margin-left: 5%;
+        margin-right: 5%;
+
+    }
 }
 
 .rodo__list {
