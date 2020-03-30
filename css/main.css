@@ -2829,6 +2829,9 @@ section h3.section-subheading {
   margin-left: auto;
   margin-right: auto;
   width: 30%; }
+  @media (max-width: 720px) {
+    .wrapper-rodo__image {
+      width: 80%; } }
 
 .wrapper-rodo__body {
   margin-left: 25%;
@@ -2838,6 +2841,10 @@ section h3.section-subheading {
   background-color: white;
   padding: 4%;
   padding-bottom: 0; }
+  @media (max-width: 720px) {
+    .wrapper-rodo__body {
+      margin-left: 5%;
+      margin-right: 5%; } }
 
 .rodo__list {
   list-style: decimal; }
@@ -3303,7 +3310,7 @@ header p {
   -ms-grid-column-span: 1;
   grid-area: 1 / 2 / 2 / 3; }
 
-.wenGe {
+.wenge {
   background-color: #39261d;
   -ms-grid-row: 1;
   -ms-grid-row-span: 1;
@@ -3335,7 +3342,7 @@ header p {
   -ms-grid-column-span: 1;
   grid-area: 2 / 2 / 3 / 3; }
 
-.wenGes {
+.wenges {
   background-color: #5b433f;
   -ms-grid-row: 2;
   -ms-grid-row-span: 1;
